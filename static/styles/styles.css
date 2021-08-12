@@ -1,0 +1,69 @@
+@import url('styles/footer.css');
+
+/* html */
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #777;
+}
+
+/* Body styles */
+body {
+    width:70%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 10px solid #73f596;
+}
+
+/* starter-template styles */
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+/* job_profile styles */
+.job_profile{
+  padding: 3rem 1.5rem;
+  text-align: left;
+}
+
+/* Sticky footer styles */
+.mt-auto {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  width: 40px;
+}
+
+.about_row {
+            border: 1px;
+            height: 150px;
+            background-color: #f5f5f5;
+        }
+
+.web_info {
+width: 100%;
+text-align: center;
+}
+
+/* linkedin badge styles */
+.LI-profile-badge{
+text-align: right;
+float: right;
+}

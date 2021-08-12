@@ -1,0 +1,6 @@
+# https://cloud.google.com/appengine/docs/standard/python3/configuring-your-app-with-app-yaml
+
+runtime: python37
+
+env_variables:
+    CLOUD_STORAGE_BUCKET: arched-album-245206.appspot.com
